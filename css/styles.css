@@ -1,0 +1,41 @@
+/* Google fonts: Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap");
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #212121;
+    --main-color: #E74C3C;
+}
+
+* {
+    font-family: Poppins, Arial;
+}
+
+navbar {
+    background-color: #ffffff;
+}
+
+#hero-section {
+    height: 100vh;
+    background-image: url('../res/hero_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#btn-blog {
+    background-color: #212121;
+    color: #ffffff;
+}
+
+#btn-blog:hover {
+    background-color: #21212160;
+    transition: all ease-in-out 0.5s;
+}
+
+#blog-section {
+    margin-top: 70px;
+}
+
+card {
+    width: 12rem;
+}
