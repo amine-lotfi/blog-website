@@ -5,7 +5,7 @@
 
 	// check connection
     if (!$conn) {
-        $error_message = "CONNECTED:" . mysqli_connect_error();
+        $error_message = "NOT CONNECTED:" . mysqli_connect_error();
         echo '<script>alert("' . $error_message . '")</script>';
     }
 
